@@ -102,10 +102,10 @@
 
         PADMOUSE {
             bindings = <
-&kp ESCAPE  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &trans                                &kp LC(X)  &mkp MB4  &mkp MB3  &mkp MB5  &trans
-&kp HOME    &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp END     &trans            &trans  &kp LC(C)  &mkp MB1  &mo 5     &mkp MB2  &trans
-&none       &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD  &trans            &trans  &kp LC(V)  &mkp MB1  &mo 5     &mkp MB2  &trans
-&trans      &kp KP_NUMLOCK   &kp COMMA        &kp KP_NUMBER_0  &mo 3       &kp KP_ENTER      &trans  &trans                                   &trans
+&kp ESCAPE  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &trans                                &kp LC(X)  &mkp MB4  &mkp MB5  &kp ESCAPE  &none
+&kp HOME    &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp END     &trans            &trans  &kp LC(C)  &mkp MB1  &mkp MB2  &none       &trans
+&none       &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD  &trans            &trans  &kp LC(V)  &none     &none     &none       &none
+&trans      &kp KP_NUMLOCK   &kp COMMA        &kp KP_NUMBER_0  &mo 3       &kp KP_ENTER      &trans  &to 0                                      &trans
             >;
 
             sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
@@ -124,10 +124,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                        &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &mkp MB2  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &mkp MB1  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans    &trans                          &trans
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LA(LEFT_ARROW) RA(RIGHT_ARROW)>;
