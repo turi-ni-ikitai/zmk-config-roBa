@@ -97,7 +97,7 @@
 &trans            &trans            &trans            &mkp MB2          &trans            &kp INTERNATIONAL_4          &kp INTERNATIONAL_5  &kp F10                                                                  &kp BACKSPACE
             >;
 
-            sensor-bindings = <&inc_dec_kp LC(LS(SEMICOLON)) RC(MINUS)>;
+            sensor-bindings = <&inc_dec_kp LC(MINUS) RC(RS(SEMICOLON))>;
         };
 
         PADMOUSE {
@@ -119,7 +119,7 @@
 &trans   &trans   &trans  &trans  &trans   &trans      &trans      &trans                                                      &kp BACKSPACE
             >;
 
-            sensor-bindings = <&inc_dec_kp LC(PAGE_DOWN) RC(PAGE_UP)>;
+            sensor-bindings = <&inc_dec_kp LC(PG_UP) RC(PAGE_DOWN)>;
         };
 
         MOUSE {
