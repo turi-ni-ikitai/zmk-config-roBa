@@ -141,7 +141,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp LG(LC(F4)) RG(RC(D))>;
+            sensor-bindings = <&inc_dec_kp LG(LC(LEFT_ARROW)) LG(LC(RIGHT_ARROW))>;
         };
 
         layer_6 {
@@ -152,7 +152,7 @@
 &trans  &trans        &trans        &trans        &trans  &trans      &trans       &trans                                                  &bt BT_CLR_ALL
             >;
 
-            sensor-bindings = <&inc_dec_kp LG(LC(LEFT_ARROW)) RG(RC(RIGHT_ARROW))>;
+            sensor-bindings = <&inc_dec_kp LG(LC(F4)) LG(LC(D))>;
         };
     };
 };
