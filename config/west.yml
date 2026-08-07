@@ -4,13 +4,22 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: sekigon-gonnoc
       url-base: https://github.com/sekigon-gonnoc
+    - name: kot149
+      url-base: https://github.com/kot149
+
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: v0.3-branch
       import: app/west.yml
+
     - name: zmk-driver-paw3222
       remote: sekigon-gonnoc
       revision: main
+
+    - name: zmk-scroll-snap
+      remote: kot149
+      revision: main
+
   self:
     path: config
